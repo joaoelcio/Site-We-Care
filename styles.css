@@ -88,3 +88,49 @@ p {
 section{
     display: inline-block;
 }
+
+@media screen and (max-width: 900px) {
+
+header{
+    display: none;
+}
+
+p{
+    display: none;
+}
+
+.img-logo{
+    width: 354px;
+    height: 317px;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+h1{
+    width: 263px;
+    height: 52px;
+    font-size: 50px;
+    line-height: 60.95px;
+}
+
+h2{
+    width: 232px;
+    height: 37px;
+    font-size: 30px;
+    line-height: 36.57px;
+
+}
+
+section{
+    display: block;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.button-main{
+    display: block;
+    margin-top: 15px;
+}
+
+}
